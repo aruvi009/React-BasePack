@@ -8,8 +8,8 @@
 <div align="center">
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/aruvi009/React-BasePack/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/aruvi009/React-BasePack/pulls)
+[![GitHub Issues](https://img.shields.io/github/issues/aruvi009/React-BasePack.svg)](https://github.com/aruvi009/React-BasePack/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/aruvi009/React-BasePack.svg)](https://github.com/aruvi009/React-BasePack/pulls)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
 </div>
