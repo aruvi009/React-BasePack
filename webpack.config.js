@@ -37,22 +37,10 @@ module.exports = function (env, options) {
         {
           test: /\.(css|scss)$/,
           use: [
-            {
-              loader: MiniCssExtractPlugin.loader,
-            },
-            {
-              loader: 'css-loader'
-            }, 
-            {
-              loader: 'postcss-loader',
-              options: {
-                ident: 'postcss',
-                plugins: []
-              }
-            },
-            {
-              loader: 'sass-loader'
-            }
+            MiniCssExtractPlugin.loader,
+            "css-loader",
+            "postcss-loader",
+            "sass-loader"
           ]
         },
         {
