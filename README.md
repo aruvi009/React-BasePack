@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
+ <img width=200px height=200px src="public/favicon.ico" alt="Project logo"></a>
 </p>
 
 <h3 align="center">React-BasePack</h3>
@@ -34,7 +34,7 @@
 
 ## 🧐 About <a name = "about"></a>
 
-This is a custome project extended from the create-react-app generated environment. To suit my development style, I have added some custom node modules and folder structure. 
+This is a custom project extended from the create-react-app generated environment. To suit my development style, I have added some custom node modules and folder structure. 
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
@@ -101,9 +101,9 @@ A 'build' folder will be created in the root and should be used for deployment p
 ## ⛏️ Built Using <a name = "built_using"></a>
 
 <!-- - [MongoDB](https://www.mongodb.com/) - Database -->
-- [Json Server](https://www.npmjs.com/package/json-server) - Database (Mock)
 <!-- - [Express](https://expressjs.com/) - Server Framework -->
 <!-- - [VueJs](https://vuejs.org/) - Web Framework -->
+- [Json Server](https://www.npmjs.com/package/json-server) - Database (Mock)
 - [ReactJs](https://reactjs.org/) - Web Framework
 - [React Bootstrap](https://react-bootstrap.github.io) - Front-end Framework
 - [NodeJs](https://nodejs.org/en/) - Server Environment
