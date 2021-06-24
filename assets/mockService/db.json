@@ -1,0 +1,525 @@
+{
+  "systemenv": {
+    "shipName": "Island Princess",
+    "shipCode": "IP",
+    "systemLogo": "PCL"
+  },
+  "summary": [
+    {
+      "id": 1,
+      "description": "NEW",
+      "count": 4
+    },
+    {
+      "id": 2,
+      "description": "IN-PROGRESS",
+      "count": 0
+    },
+    {
+      "id": 3,
+      "description": "FINAL FOLLOW-UP",
+      "count": 0
+    },
+    {
+      "id": 4,
+      "description": "CLOSED",
+      "count": 0
+    }
+  ],
+  "sortFilter": [
+    {
+      "id": 0,
+      "description": "Days open - Ascending"
+    },
+    {
+      "id": 1,
+      "description": "Days open - Descending"
+    },
+    {
+      "id": 2,
+      "description": "Severity - Ascending"
+    },
+    {
+      "id": 3,
+      "description": "Severity Descending"
+    },
+    {
+      "id": 4,
+      "description": "Number of Affected Guests - Ascending"
+    },
+    {
+      "id": 5,
+      "description": "Number of Affected Guests Descending"
+    }
+  ],
+  "toggleControl": [
+    {
+      "id": 0,
+      "description": "No"
+    },
+    {
+      "id": 1,
+      "description": "Yes"
+    }
+  ],
+  "tickets": [
+    {
+      "id": 0,
+      "description": "NEW",
+      "count": 12
+    },
+    {
+      "id": 1,
+      "description": "IN-PROGRESS",
+      "count": 31
+    },
+    {
+      "id": 2,
+      "description": "FINAL FOLLOW-UP",
+      "count": 15
+    },
+    {
+      "id": 3,
+      "description": "CLOSED",
+      "count": 72
+    }
+  ],
+  "alltickets": {
+    "totalPages": 4,
+    "currentPage": 1,
+    "pageSize": 99999,
+    "pageItems": 4,
+    "nextPage": "",
+    "previousPage": "",
+    "tickets": [
+      {
+        "type": "INFO",
+        "subject": "bad food",
+        "description": "",
+        "locationId": null,
+        "severity": "HIGH",
+        "severityId": 3,
+        "assignedToJobId": 1,
+        "id": 5,
+        "status": "NEW",
+        "openedDate": "2019-08-29 15:27:04",
+        "openDurationHours": 11,
+        "affectedGuestCount": 1,
+        "assignedToJob": "Hotel General Manager",
+        "createdByMapsId": "007955",
+        "jobNotifications": []
+      },
+      {
+        "type": "INFO",
+        "subject": "great food",
+        "description": "",
+        "locationId": null,
+        "severity": "HIGH",
+        "severityId": 3,
+        "assignedToJobId": 1,
+        "id": 6,
+        "status": "NEW",
+        "openedDate": "2019-08-29 15:27:42",
+        "openDurationHours": 11,
+        "affectedGuestCount": 2,
+        "assignedToJob": "Hotel General Manager",
+        "createdByMapsId": "007955",
+        "jobNotifications": []
+      },
+      {
+        "type": "INFO",
+        "subject": "a",
+        "description": "",
+        "locationId": null,
+        "severity": "LOW",
+        "severityId": 1,
+        "assignedToJobId": 25,
+        "id": 21,
+        "status": "NEW",
+        "openedDate": "2019-08-29 22:37:27",
+        "openDurationHours": 4,
+        "affectedGuestCount": 1,
+        "assignedToJob": "Entertainment Director",
+        "createdByMapsId": "007955",
+        "jobNotifications": []
+      },
+      {
+        "type": "INFO",
+        "subject": "The food smelled like socks.",
+        "description": "",
+        "locationId": null,
+        "severity": "HIGH",
+        "severityId": 3,
+        "assignedToJobId": 1,
+        "id": 11,
+        "status": "NEW",
+        "openedDate": "2019-08-29 15:40:38",
+        "openDurationHours": 11,
+        "affectedGuestCount": 1,
+        "assignedToJob": "Hotel General Manager",
+        "createdByMapsId": "007955",
+        "jobNotifications": []
+      }
+    ]
+  },
+  "singleDetail": {
+    "type": "INFO",
+    "subject": "bad food",
+    "description": "guest said the food was disgusting!!",
+    "locationId": null,
+    "severity": "HIGH",
+    "severityId": null,
+    "assignedToJobId": 1,
+    "id": 5,
+    "status": "NEW",
+    "openedDate": "2019-08-29 15:27:04",
+    "openDurationHours": 8,
+    "affectedGuestCount": 1,
+    "assignedToJob": "Hotel General Manager",
+    "createdByMapsId": "007955",
+    "jobNotifications": [],
+    "reportingCrewFirstName": "Terri",
+    "reportingCrewLastName": "Cybuliak",
+    "reportingCrewJob": "HGMG",
+    "reportingBookingNumber": "HCMV6W02",
+    "affectedGuests": [
+      {
+        "id": 2,
+        "bookingNo": "HCMV6W02",
+        "firstName": "JAMES",
+        "lastName": "MCCAW",
+        "createdDate": "2019-08-29 14:27:04",
+        "state": "NEW",
+        "createdByMapsId": "007955",
+        "cabin": "E732",
+        "resolution": [],
+        "nextStates": [
+          {
+            "id": 2,
+            "description": "IN-PROGRESS",
+            "actionDescription": "Acknowledge",
+            "sequence": 1,
+            "link": {
+              "href": "/tickets/5/affected-guests/2/states/2",
+              "type": "POST"
+            }
+          },
+          {
+            "id": 4,
+            "description": "CLOSED",
+            "actionDescription": "Close At First Contact",
+            "sequence": 2,
+            "link": {
+              "href": "/tickets/5/affected-guests/2/states/4",
+              "type": "POST"
+            }
+          }
+        ]
+      }
+    ],
+    "location": {
+      "locationId": 4,
+      "locationName": "Not Applicable "
+    },
+    "comments": [
+      {
+        "commentId": 45,
+        "createdByMapsId": "007955",
+        "comment": "sdf",
+        "date": "2019-08-29 21:39:04"
+      },
+      {
+        "commentId": 4,
+        "createdByMapsId": "007955",
+        "comment": "GEM 5 was opened and assigned to Hotel General Manager.",
+        "date": "2019-08-29 14:27:04"
+      },
+      {
+        "commentId": 5,
+        "createdByMapsId": "007955",
+        "comment": "JAMES MCCAW E732 was added to Group GEM.",
+        "date": "2019-08-29 14:27:04"
+      },
+      {
+        "commentId": 30,
+        "createdByMapsId": "007955",
+        "comment": "GEM 10 was reassigned from Night Manager to Night Manager.",
+        "date": "2019-08-29 16:38:54"
+      },
+      {
+        "commentId": 32,
+        "createdByMapsId": "007955",
+        "comment": "GEM 10 was updated to Compliment Food & Beverage Not Applicable  MEDIUM.",
+        "date": "2019-08-29 16:38:54"
+      }
+    ],
+    "category": {
+      "categoryId": 1,
+      "categoryDescription": "Compliment",
+      "subCategoryId": 120,
+      "subCategoryDescription": "Food & Beverage",
+      "categoryItemId": 1
+    }
+  },
+  "groupDetail": {
+    "type": "INFO",
+    "subject": "great food",
+    "description": "guest said the food was fantastic!!",
+    "locationId": null,
+    "severity": "HIGH",
+    "severityId": null,
+    "assignedToJobId": 1,
+    "id": 2,
+    "status": "NEW",
+    "openedDate": "2019-08-29 15:27:42",
+    "openDurationHours": 11,
+    "affectedGuestCount": 2,
+    "assignedToJob": "Hotel General Manager",
+    "createdByMapsId": "007955",
+    "jobNotifications": [],
+    "reportingCrewFirstName": "Terri",
+    "reportingCrewLastName": "Cybuliak",
+    "reportingCrewJob": "HGMG",
+    "reportingBookingNumber": "HCVGCG01",
+    "affectedGuests": [
+      {
+        "id": 3,
+        "bookingNo": "HCVGCG01",
+        "firstName": "CLAUDIA",
+        "lastName": "BRANEN",
+        "createdDate": "2019-08-29 14:27:42",
+        "state": "IN-PROGRESS",
+        "createdByMapsId": "007955",
+        "cabin": "B409",
+        "resolution": [
+		{
+          "amount": 20,
+          "description": "Future Cruise Credit",
+          "id": 0
+        },
+		{
+          "amount": 100,
+          "description": "Allow Me To - Up to $50 OBC",
+          "id": 0
+        }],
+        "nextStates": [
+          {
+            "id": 2,
+            "description": "IN-PROGRESS",
+            "actionDescription": "Acknowledge",
+            "sequence": 1,
+            "link": {
+              "href": "/tickets/6/affected-guests/3/states/2",
+              "type": "POST"
+            }
+          },
+          {
+            "id": 4,
+            "description": "CLOSED",
+            "actionDescription": "Close At First Contact",
+            "sequence": 2,
+            "link": {
+              "href": "/tickets/6/affected-guests/3/states/4",
+              "type": "POST"
+            }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "bookingNo": "HCWLGN02",
+        "firstName": "JANICE",
+        "lastName": "CARLL",
+        "createdDate": "2019-08-29 14:30:09",
+        "state": "NEW",
+        "createdByMapsId": "022958",
+        "cabin": "B526",
+        "resolution": [],
+        "nextStates": [
+          {
+            "id": 2,
+            "description": "IN-PROGRESS",
+            "actionDescription": "Acknowledge",
+            "sequence": 1,
+            "link": {
+              "href": "/tickets/6/affected-guests/4/states/2",
+              "type": "POST"
+            }
+          },
+          {
+            "id": 4,
+            "description": "CLOSED",
+            "actionDescription": "Close At First Contact",
+            "sequence": 2,
+            "link": {
+              "href": "/tickets/6/affected-guests/4/states/4",
+              "type": "POST"
+            }
+          }
+        ]
+      }
+    ],
+    "location": {
+      "locationId": 4,
+      "locationName": "Not Applicable "
+    },
+    "comments": [
+      {
+        "commentId": 6,
+        "createdByMapsId": "007955",
+        "comment": "GEM 6 was opened and assigned to Hotel General Manager.",
+        "date": "2019-08-29 14:27:42"
+      },
+      {
+        "commentId": 7,
+        "createdByMapsId": "007955",
+        "comment": "CLAUDIA BRANEN B409 was added to Group GEM.",
+        "date": "2019-08-29 14:27:42"
+      },
+      {
+        "commentId": 9,
+        "createdByMapsId": "022958",
+        "comment": "JANICE CARLL B526 was added to Group GEM.",
+        "date": "2019-08-29 14:30:09"
+      }
+    ],
+    "category": {
+      "categoryId": 1,
+      "categoryDescription": "Compliment",
+      "subCategoryId": 120,
+      "subCategoryDescription": "Food & Beverage",
+      "categoryItemId": 1
+    }
+  },
+  "locations": {
+    "totalPages": "10",
+    "currentPage": "1",
+    "pageSize": "50",
+    "pageItems": "1",
+    "nextPage": "href to next page",
+    "locationGroup": "location.location_group",
+    "locations": [
+      {
+        "locationId": "27",
+        "locationName": "Crown Grill",
+        "locationGroup": "2"
+      },
+      {
+        "locationId": "28",
+        "locationName": "Crown Grills",
+        "locationGroup": "2"
+      }
+    ]
+  },
+  "affected-guests": {
+    "id": 5,
+    "bookingNo": "CR9Q3J01",
+    "title": "MR",
+    "firstName": "KEVIN",
+    "lastName": "GAITENS",
+    "cabin": "2439",
+    "cabinType": "Stateroom",
+    "loyalty": "blue",
+    "onboardSpend": "0",
+    "imageUrl": "https://lxsbapps.sb.cruises.princess.com/shipstarws/service/voyages/current/passengers/CR9Q3J01/apass/images"
+  },
+  "comments": {
+    "comment": "sssssss\nsssss",
+    "createdByMapsId": "608084"
+  },
+  "resolutionTypes": [
+    {
+      "id": "AMT",
+      "description": "Allow Me To - Up to $50 OBC",
+      "requiresAmount": 1,
+      "requiresAction": 1
+    },
+    {
+      "id": "FCC",
+      "description": "Future Cruise Credit",
+      "requiresAmount": 1,
+      "requiresAction": 1
+    }
+  ],
+  "othertickets": {
+    "tickets": [
+      {
+        "affectedGuestId": 5,
+        "ticketId": 10,
+        "subject": "TEST",
+        "status": "NEW",
+        "severity": "MEDIUM",
+        "links": [],
+        "guestResolutions": []
+      }
+    ]
+  },
+  "category-types":[
+      {
+        "description": "Compliment",
+        "id": "1"
+      },
+      {
+        "description": "Issue",
+        "id": "2"
+      }
+  ],
+  "guest-list":[
+    {
+      "bookingNo": "AVqer",
+      "cabin": "232",
+      "firstName": "Sunny",
+      "lastName": "Mathews"
+    }
+  ],
+  "severity-levels":[
+    {
+      "description": "High",
+      "id": 1
+    }
+  ],
+  "categories": [
+    {
+      "categoryId": "CAT-001",
+      "description": "Dining",
+      "action": "U",
+      "subcategories": "2"
+    },
+    {
+      "categoryId": "CAT-002",
+      "description": "ADA",
+      "action": "U",
+      "subcategories": "0"
+    }
+  ],
+  "subcategories": [
+      {
+        "id": "SUBCAT-001",
+        "description": "environment",
+        "action": "U",
+        "categoryId": "CAT-001"
+      },
+      {
+        "id": "SUBCAT-002",
+        "description": "food is cold",
+        "action": "C",
+        "categoryId": "CAT-001"
+      },
+      {
+        "id": "SUBCAT-003",
+        "description": "fly in food",
+        "action": "D",
+        "categoryId": ""
+      }
+  ],
+  "ticketDetails": [
+    {
+      "id": 1,
+      "description": "No"
+    },
+    {
+      "id": 2,
+      "description": "Yes"
+    }
+  ]
+}

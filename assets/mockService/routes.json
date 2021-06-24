@@ -1,0 +1,18 @@
+{
+"/system-environment/": "/systemenv",
+"/summary/": "/summary",
+"/sortFilter/": "/sortFilter",
+"/tickets/": "/tickets/states/summary",
+"/alltickets/": "/alltickets",
+"/ticketDetails/:id": "/ticketDetails/:id",
+"/locations/": "/locations",
+"/affected-guests/": "/affected-guests",
+"/comments/": "/comments",
+"/resolution-types/": "/resolutionTypes",
+"/othertickets/": "/othertickets",
+"/category-types":"/category-types",
+"/guest-list": "/guest-list",
+"/severity-levels": "/severity-levels",
+"/categories": "/categories",
+"/subCategories": "/subCategories"
+}

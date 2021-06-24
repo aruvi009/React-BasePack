@@ -1,0 +1,52 @@
+{
+  "categories": [
+    {
+      "uuid": "c6e15785-eec6-4b33-ada1-9dbfebca13fb",
+      "title": "Safety, Security and Environment",
+      "image": "./assets/static/category-image/safety-icon.png",
+      "selectedImage": "./assets/static/category-image/safety-icon-active.png"
+    },
+    {
+      "uuid": "4c31bc36-93d5-4d76-a5b1-4e182de8ee63",
+      "title": "Shipboard Services and Shopping",
+      "image": "./assets/static/category-image/shipbordServices-icon.png",
+      "selectedImage": "./assets/static/category-image/shipbordServices-icon-active.png"
+    },
+    {
+      "uuid": "b7b39b1e-b1cd-4dd1-9dbd-945873bc39dc",
+      "title": "Dining Options and Room Service",
+      "image": "./assets/static/category-image/diningoption-icon.png",
+      "selectedImage": "./assets/static/category-image/diningoption-icon-active.png"
+    },
+    {
+      "uuid": "1d6ff618-9b0f-4edd-a212-f84ff2d3ea9c",
+      "title": "Activities and Entertainment",
+      "image": "./assets/static/category-image/activities-icon.png",
+      "selectedImage": "./assets/static/category-image/activities-icon-active.png"
+    },
+    {
+      "uuid": "0c6a491d-69ea-4c21-9ef0-4d3edab0945f",
+      "title": "Bars and Lounges",
+      "image": "./assets/static/category-image/bars-icon.png",
+      "selectedImage": "./assets/static/category-image/bars-icon-active.png"
+    },
+    {
+      "uuid": "457dac3d-077b-4611-9967-34d94141b66a",
+      "title": "Communications and Stateroom Services",
+      "image": "./assets/static/category-image/communication-icon.png",
+      "selectedImage": "./assets/static/category-image/communication-icon-active.png"
+    },
+    {
+      "uuid": "b247ce8e-a2e1-49ef-bfd3-217a8227f0db",
+      "title": "Princess@Sea",
+      "image": "./assets/static/category-image/princessatsea-icon.png",
+      "selectedImage": "./assets/static/category-image/princessatsea-icon-active.png"
+    },
+    {
+      "uuid": "83c1f875-03ec-4751-b441-a7dba01e5f31",
+      "title": "What's New at Princess?",
+      "image": "./assets/static/category-image/new-icon.png",
+      "selectedImage": "./assets/static/category-image/new-icon-active.png"
+    }
+  ]
+}
